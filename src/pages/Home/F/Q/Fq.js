@@ -2,7 +2,8 @@ import React from 'react';
 
 const Fq = () => {
     return (
-        <div className="text-center mb-4">
+        <div className='mx-auto'>
+            <div className="text-center mb-4">
             <p className='text-2xl font-bold text-orange-600 mt-10'>Question/Answer</p>
             <h2 className='text-5xl font-semibold'>Get Started</h2>
             <div className='grid  ms-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6'>
@@ -42,6 +43,7 @@ NodeJS receives multiple client requests and places them into EventQueue. NodeJS
             </div>
 
             </div>
+        </div>
         </div>
     );
 };
