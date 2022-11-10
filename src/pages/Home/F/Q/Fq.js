@@ -33,7 +33,11 @@ const Fq = () => {
             <div className="card w-96 bg-base-100 shadow-xl">
             <div className="card-body">
                 <h2 className="card-title">Q. How does NodeJS handle multiple requests at the same time?git </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p>We know NodeJS application is single-threaded. Say, if processing involves request A that takes 10 seconds, it does not mean that a request which comes after this request needs to wait 10 seconds to start processing because NodeJS event loops are only single-threaded. The entire NodeJS architecture is not single-threaded. 
+
+How NodeJS handle multiple client requests?
+
+NodeJS receives multiple client requests and places them into EventQueue. NodeJS is built with the concept of event-driven architecture. NodeJS has its own EventLoop which is an infinite loop that receives requests and processes them. EventLoop is the listener for the EventQueue. </p>
             </div>
             </div>
 
