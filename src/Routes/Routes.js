@@ -28,7 +28,7 @@ const router = createBrowserRouter([
             element: <PrivateRoute>
                 <ServiceDetails/>
             </PrivateRoute>,
-            loader: ({params}) => fetch(`http://localhost:5000/services/${params.id}`)
+            loader: ({params}) => fetch(`https://my-11th-assignment-server.vercel.app/services/${params.id}`)
         },
         ],
     },
