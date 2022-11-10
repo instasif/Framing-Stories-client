@@ -9,8 +9,8 @@ const Fq = () => {
 
             <div className="card w-96 bg-base-100 shadow-xl">
             <div className="card-body">
-                <h2 className="card-title"> s</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <h2 className="card-title">Q. Difference between SQL and NoSQL.</h2>
+                <p>SQL is the programming language used to interface with relational databases. (Relational databases model data as records in rows and tables with logical links between them). NoSQL is a class of DBMs that are non-relational and generally do not use SQL.</p>
             </div>
             </div>
 
