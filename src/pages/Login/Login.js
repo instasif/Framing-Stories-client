@@ -2,12 +2,14 @@ import React, { useContext } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import googleIcon from '../../Assets/icons/icons8-google-48.png'
 import { AuthContext } from '../../Context/AuthProvider/AuthProvider';
+import UseTitle from '../../Hooks/UseTitle';
 
 const Login = () => {
     const {logIn, handleGoogleLogIn} = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
     const from = location.state?.from?.pathname || '/';
+    UseTitle('Login')
 
     const handleSubmit = (event) => {
         event.preventDefault();
